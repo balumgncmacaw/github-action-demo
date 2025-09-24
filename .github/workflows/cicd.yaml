@@ -6,7 +6,7 @@ jobs:
     job1: 
         runs-on: ubuntu-latest
         steps: 
-            - run: echo " Hello From job 1"
+            - run: exit 1
     
     job2: 
         runs-on: ubuntu-latest
